@@ -1,0 +1,64 @@
+body { background-color: #ededed; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.calculator {
+    width: 400px;
+    background-color: #333;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.buttonsGrid {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.screen {
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #ededed;;
+    text-align: right;
+    color: #333;
+    word-wrap:break-word;
+}
+
+.btn {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #333;
+    background-color: #ededed;
+    font-family: inherit;
+}
+.btn:hover {
+    background-color: #333;
+    cursor: pointer;
+    color: #ededed;
+    border: 2px solid #ededed;
+}
+.span2 {
+    grid-column: span 2;
+}
+.screenLast {
+    min-height: 32px;
+    font-size: 20px;
+}
+
+.screenCurrent {
+    min-height: 64px;
+    font-size: 40px;
+}
